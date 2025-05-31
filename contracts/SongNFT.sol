@@ -20,7 +20,7 @@ contract SongNFT is ERC721URIStorage, Ownable {
     // Address of the artist
     address public artist;
     // URI of the audio file
-    string public audioURI;
+    string public audioURI
     // Accumulated royalties
     uint256 public royaltyBalance;
     // URI of the cover image
